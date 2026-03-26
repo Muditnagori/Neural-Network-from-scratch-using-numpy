@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+
+# Virtual environments
+sklearn-env/
+venv/
+env/
+
+# OS
+.DS_Store
