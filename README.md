@@ -40,3 +40,28 @@ train_mnist.py
 pip install -r requirements.txt
 python train_xor.py
 python train_mnist.py
+```
+
+## What I Learned
+- Forward propagation
+
+- Backpropagation (chain rule)
+
+- Gradient descent
+
+- Numerical stability
+
+- Working with real datasets
+
+
+## Future Improvements
+- Deep neural networks (multi-layer)
+
+- Adam optimizer
+
+- Mini-batch training
+
+- Multi-class classification (Softmax)
+
+
+
