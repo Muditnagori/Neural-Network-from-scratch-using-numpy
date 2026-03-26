@@ -9,3 +9,34 @@ A fully functional implementation of a 2-layer neural network built from first p
 - Accuracy tracking
 - Loss & Accuracy visualization
 - MNIST dataset support
+
+## Results
+
+### XOR Dataset
+- Accuracy: ~100%
+- Loss converges smoothly
+
+### MNIST (Binary: 0 vs Not 0)
+- Accuracy: ~85–90% (subset)
+- Demonstrates real dataset learning
+
+### XOR Training
+![Loss](images/xor_loss.png)
+![Accuracy](images/xor_acc.png)
+
+### MNIST Training
+![Loss](images/mnist_loss.png)
+![Accuracy](images/mnist_acc.png)
+
+## Project Structure
+nn/ → core neural network
+data/ → datasets
+train_xor.py
+train_mnist.py
+
+## How to Run
+
+```bash
+pip install -r requirements.txt
+python train_xor.py
+python train_mnist.py
